@@ -1,15 +1,16 @@
 import { NavLink } from 'react-router-dom'
 import Home from './Home';
-// import { ReactComponent as Brand } from './assets/img.svg'
 import logo from './assets/img.png'
 import './Navbar.css';
+import React, {Component} from 'react';
+import { BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 
 const Navbar = () => {
     return (
         <nav className="navbar">
             <div className="container">
                 <div className="logo">
-                    <NavLink to="/" component={Home}>
+                    <NavLink to="/home" component={Home}>
                         <img src={logo} className="brand-logo"/>
                     </NavLink>
                 </div>

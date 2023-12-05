@@ -17,6 +17,7 @@ body {
     justify-content: space-between;
     align-items: center;
     height: 100%;
+    margin-top: 1em;
 }
 
 .navbar {
@@ -59,4 +60,55 @@ body {
     width: 100%;
     height: 2px;
     background-color: #574c4c;
+}
+
+.nav-login {
+    vertical-align: top;
+    position: relative;
+}
+
+.nav-login ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.nav-login ul li:not(:last-child) {
+    margin-right: 30px;
+}
+
+.nav-login ul a {
+    font-size: 16px;
+    font-weight: 400;
+    color: #2f234f;
+    text-decoration: none;
+}
+
+.nav-login ul a.active {
+    color: #574c4c;
+    font-weight: 500;
+    position: relative;
+}
+
+.nav-login ul a.active::after {
+    content: '';
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #574c4c;
+}
+
+.nav-apply {
+    margin-right: 5px;
+}
+
+.apply-button {
+    background-color: #035fa8;
+    color: white;
+    cursor: pointer;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-flex;
 }
