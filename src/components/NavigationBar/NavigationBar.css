@@ -1,0 +1,24 @@
+.btn-primary {
+    color: #fff;
+    font-family: 'DM Sans', sans-serif;
+    background-color: #0260A8;
+    border-color: #0260A8;
+    width: 70px;
+    height: 35px;
+
+}
+
+.navbar {
+    height: 100px !important; /*i assume your navbar size 100px*/
+}
+
+.custom-nav-links a {
+    color: #0260A8 !important;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+    margin-right: 15px;
+}
+
+.navbar-custom {
+    margin-left: 20px;
+}
