@@ -1,0 +1,127 @@
+/* styles.css */
+
+.aligned-center-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.aligned-center-text {
+  font-size: 18px;
+  color: #0260A8;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 600;
+  /* text-align: center; */
+  /* max-width: 600px; Adjust the maximum width as needed */
+}
+
+.colored-box {
+  display: flex;
+  flex-direction: column; /* Stack children vertically */
+  align-items: center; 
+  justify-content: flex-start; /* Align items to the top */
+  height: 20%;
+  background-color: #0260A8;
+  padding: 40px; 
+}
+
+.content {
+  text-align: center;
+  color: #fff;
+  font-family: 'DM Sans', sans-serif;
+
+}
+
+.cardsp {
+  background-color: #fff;
+  font-family: 'DM Sans', sans-serif;
+  padding: 20px;
+  max-width: 24rem;
+  max-height: 8rem;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 25px; /* Add margin-bottom for vertical space */
+  display: flex; /* Add display: flex */
+  flex-direction: column; /* Stack child elements vertically */
+  align-items: center; /* Center items horizontally */
+  justify-content: center; /* Center items vertically */
+
+}
+
+.cardsp-title {
+  font-size: 45px; /* Adjust the font size as needed */
+  font-weight: bold;
+  color: #0260A8; /* Change the color of the card title */
+  font-style: normal; /* Set the font style to normal to remove italics */
+  font-family: 'DM Sans', sans-serif;
+
+}
+
+.cardsp-text {
+  font-size: 16px; /* Adjust the font size as needed */
+  color: #5A5A5A; /* Change the color of the card text */
+  font-weight: 500;
+  font-family: 'DM Sans', sans-serif;
+
+}
+
+.endowment-fund-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center; /* Align text center within the box */
+  height: 20%;
+  padding: 40px;
+}
+
+.ef-content {
+  font-size: 18px;
+  color: #0260A8;
+  font-weight: 600;
+  max-width: 1000px; /* Adjust the maximum width as needed */
+  margin-bottom: -40px;
+
+}
+
+.ef-content p {
+  color: #5A5A5A;
+  font-weight: 500;
+  
+}
+
+.ef-content h3{
+  padding: 1%;
+  text-decoration: underline;
+}
+
+.fullcash-table {
+  max-width: 60%;
+  margin: auto;
+  font-size: larger;
+  text-align: center;
+  border-collapse: collapse; /* Collapse borders between table cells */
+
+}
+
+.fullcash-table thead th {
+  vertical-align: top;
+  color: #5A5A5A;
+}
+
+.fullcash-table th, .fullcash-table td {
+  border: none; /* Remove borders on table cells */
+}
+
+.ef-option2 {
+  align-items: center;
+  justify-content: center;
+  text-align: center; /* Align text center within the box */
+  height: 20%;
+  margin-top: 2%;
+  padding: 40px;
+  font-size: 18px;
+  color: #0260A8;
+  font-weight: 600;
+  padding: 1%;
+  text-decoration: underline;
+}

@@ -1,0 +1,83 @@
+.about-section {
+    padding: 7.5em;
+    overflow: hidden;
+}
+.about-msf-section {
+    width:47.5%;
+    line-height: 1.75;
+    float: right;
+}
+
+.clear-button {
+    color: #113377;
+    background-color: white;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid #113377;
+    padding: 12px 14px;
+}
+
+.about-sponsor {
+    padding-top: 5em;
+    text-align: center;
+    justify-content: space-between;
+}
+.about-sponsors {
+    justify-content: space-between;
+}
+.sponsor-logo{
+    width: 20%;
+}
+
+.about-two-button {
+    padding-top: 5em;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.about-two-buttons {
+    color: white;
+    background-color: #113377;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: underline;
+    border: 1px solid white;
+    padding: 12px 14px;
+    height: 175px;
+    width: 50%;
+    font-size: 35px;
+}
+
+.about-two-buttons:hover {
+    background-color: #071633;
+}
+
+.about-highlights {
+    width: auto;
+    height: auto;
+    background-color: #113377;
+    padding: 75px 75px;
+    text-align: center;
+}
+.about-highlight-boxes {
+    display: flex;
+    justify-content: space-between;
+}
+.about-highlight-box {
+    width: 30%;
+    height: 200px;
+    background-color: #35518a;
+    text-align: center;
+    justify-items: center;
+    padding-top: 1em;
+}
+
+.p-highlight {
+    color: #adbad5;
+    font-size: 20px;
+}
+.h2-highlight {
+    color: white;
+    font-size: 40px;
+}
